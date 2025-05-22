@@ -12,8 +12,8 @@
 
 - User and Admin Authentication
 - User Registration and Login
-- Admin Dashboard to manage events and users
-- User Dashboard to view and participate in competitions
+- Admin Dashboard to manage events
+- User Dashboard to view Events
 - Secure role-based access
 - Responsive UI
 
@@ -42,13 +42,32 @@ To run the project locally, follow these steps:
 
 ```bash
 git clone https://github.com/IAmrNourI/ATC_01060010060.git
-cd ATC_01060010060
-npm i
-npm run dev 
 ```
 
+### 2. Install Frontend dependencies
+
 ```bash
+cd ATC_01060010060
+cd client
+npm i
+```
+
+### 3. Install Backend dependencies
+
+```bash
+cd ATC_01060010060
 cd server
 npm i
+```
+
+### 4. Run Frontend
+
+```bash
+npm run dev
+```
+
+### 5. Run Backend
+
+```bash
 npm run dev
 ```

@@ -54,6 +54,7 @@ npm i
 
 ### 3. Install Backend dependencies
 
+in New Terminal
 ```bash
 cd ATC_01060010060
 cd server
@@ -62,12 +63,18 @@ npm i
 
 ### 4. Run Frontend
 
+in New Terminal
 ```bash
+cd ATC_01060010060
+cd client
 npm run dev
 ```
 
 ### 5. Run Backend
 
+in New Terminal
 ```bash
+cd ATC_01060010060
+cd server
 npm run dev
 ```

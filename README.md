@@ -1,38 +1,54 @@
-# ATC_01060010060
-Event Project Competition
+# ATC_01060010060 – Event Project Competition
 
-Link of Deployment
-http://82.29.169.30:8091/
+## Overview
 
-Role Admin: 
-email : iiamr.nourii@gmail.com
-password : 123456789
+**ATC_01060010060** is a full-stack web application designed to manage and host event project competitions. The platform supports admin and user roles, registration, login, and an easy-to-use dashboard for managing events, participants, and competition entries.
 
-Rode User
-email : amr.nour.eng@gmail.com
-password : 123456789
+## 🌐 Live Demo
 
-login page
-http://82.29.169.30:8091/auth/login
+[Open Deployed App](http://82.29.169.30:8091/)
 
-Register page
-http://82.29.169.30:8091/auth/register
+## 🚀 Features
 
----How to install Locally---
+- User and Admin Authentication
+- User Registration and Login
+- Admin Dashboard to manage events and users
+- User Dashboard to view and participate in competitions
+- Secure role-based access
+- Responsive UI
 
-First Clone the Repo
+## 👤 Demo Credentials
+
+### Admin
+- **Email:** iiamr.nourii@gmail.com  
+- **Password:** 123456789
+
+### User
+- **Email:** amr.nour.eng@gmail.com  
+- **Password:** 123456789
+
+## 🔗 Key Links
+
+- **Login Page:** [Login](http://82.29.169.30:8091/auth/login)
+- **Register Page:** [Register](http://82.29.169.30:8091/auth/register)
+
+---
+
+## 🛠️ Local Installation
+
+To run the project locally, follow these steps:
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/IAmrNourI/ATC_01060010060.git
 cd ATC_01060010060
+npm i
+npm run dev 
+```
 
-Install dependencies
-then cd server => npm i => npm run dev
-
-and in another terminal
-cd client => npm i => npm run dev
-
-now everything is running 
-
-
- 
-
-
+```bash
+cd server
+npm i
+npm run dev
+```
